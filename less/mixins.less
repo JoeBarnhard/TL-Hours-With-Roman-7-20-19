@@ -8,3 +8,17 @@
        flex-direction:column
    }
 }
+
+.btn(@width:100%,@bgcolor:@pColor){
+    border-radius: 5px;
+    width:@width;
+    background:@bgcolor;
+    font-size:3rem;
+    padding:10px;
+    color:#fff;
+
+    @media @phone{
+        width:50%;
+        margin:auto;
+    }
+}

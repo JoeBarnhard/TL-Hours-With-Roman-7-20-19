@@ -145,7 +145,7 @@ html {
 }
 body {
   background-color: #29487d;
-  width: 100%;
+  max-width: 100%;
 }
 p {
   font-family: 'Roboto Slab', serif;
@@ -164,6 +164,12 @@ h2,
 h3,
 h4 {
   font-family: 'Times New Roman', Times, serif;
+  font-size: 2.5rem;
+}
+.container {
+  max-width: 1000px;
+  width: 100%;
+  padding: 0 10px;
 }
 header {
   display: flex;
@@ -190,4 +196,46 @@ header nav {
 header nav a {
   text-decoration: none;
   color: #fff;
+}
+.intro {
+  background: #ddd;
+  border-radius: 0.3rem;
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+@media (max-width: 500px) {
+  .intro {
+    flex-direction: column;
+  }
+}
+.intro img {
+  width: 100%;
+}
+.intro .text-content {
+  margin: 15px;
+}
+.intro .text-content h2 {
+  font-size: 3rem;
+  margin: 15px;
+}
+.intro .text-content p {
+  margin: 15px;
+}
+.intro .text-content button {
+  border-radius: 5px;
+  width: 100%;
+  background: #29487d;
+  font-size: 3rem;
+  padding: 10px;
+  color: #fff;
+}
+@media (max-width: 500px) {
+  .intro .text-content button {
+    width: 50%;
+    margin: auto;
+  }
 }
