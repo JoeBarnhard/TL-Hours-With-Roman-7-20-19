@@ -1,12 +1,16 @@
 
-.flex(@dir:row,@just:space-around){
+.flex(@dir:row,@just:space-between){
     display:flex;
     flex-direction:@dir;
     justify-content: @just;
 
    @media @phone {
-       flex-direction:column
+       flex-direction:column;
    }
+}
+
+.margin(@margNS:15px, @margEW:15px){
+    margin: @margNS @margEW;
 }
 
 .btn(@width:100%,@bgcolor:@pColor){
