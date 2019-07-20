@@ -1,8 +1,8 @@
-# ADD roman-jordan as Collaborator
-# Branch to your name
+# √ ADD roman-jordan as Collaborator
+# √ Branch to your name
 # Commit at least 8 times
 
-# TL-Hours-With-Roman-7-20-19
+# √ TL-Hours-With-Roman-7-20-19
 
 ## Complete Tablet View
 

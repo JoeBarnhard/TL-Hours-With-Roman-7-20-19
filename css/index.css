@@ -1,16 +1,23 @@
 @font-face {
-  font-family: 'Bonbon';
+  font-family: 'Merriweather Sans';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Bonbon Regular'), local('Bonbon-Regular'), url(https://fonts.gstatic.com/s/bonbon/v11/0FlVVPeVlFec4eePdzsE.ttf) format('truetype');
+  src: local('Merriweather Sans'), local('MerriweatherSans-Regular'), url(https://fonts.gstatic.com/s/merriweathersans/v11/2-c99IRs1JiJN1FRAMjTN5zd9vgsFHX1QjA.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Roboto Slab';
+  font-family: 'Merriweather Sans';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-display: swap;
-  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url(https://fonts.gstatic.com/s/robotoslab/v8/BngMUXZYTXPIvIBgJJSb6ufN5qA.ttf) format('truetype');
+  src: local('Merriweather Sans Bold'), local('MerriweatherSans-Bold'), url(https://fonts.gstatic.com/s/merriweathersans/v11/2-c49IRs1JiJN1FRAMjTN5zd9vgsFH1OZyDE0hM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Merriweather Sans ExtraBold'), local('MerriweatherSans-ExtraBold'), url(https://fonts.gstatic.com/s/merriweathersans/v11/2-c49IRs1JiJN1FRAMjTN5zd9vgsFH1SZCDE0hM.ttf) format('truetype');
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -155,7 +162,7 @@ img {
   height: auto;
 }
 p {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Merriweather Sans400', sans-serif;
   font-size: 2.5rem;
 }
 a {
