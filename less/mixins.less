@@ -1,0 +1,10 @@
+
+.flex(@dir:row,@just:space-around){
+    display:flex;
+    flex-direction:@dir;
+    justify-content: @just;
+
+   @media @phone {
+       flex-direction:column
+   }
+}

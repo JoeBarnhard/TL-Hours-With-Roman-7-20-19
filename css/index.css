@@ -168,8 +168,14 @@ h4 {
 header {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
   margin: 15px 0;
+}
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
+  }
 }
 header h1 {
   font-size: 4rem;
